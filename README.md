@@ -1,5 +1,5 @@
 
-# Linguistic - OCR
+# Linguistic
 
 ## Table of Contents
 - [Overview](#Overview)
