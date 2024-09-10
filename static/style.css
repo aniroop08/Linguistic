@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --main-color:#f0b30f;
+}
+.theme-text{
+    color:var(--main-color);
+}
+.navbar{
+    z-index: 1;
+    background-color: black;
+}
+.navbar-brand{
+    color:var(--main-color) !important;
+}
+.active{
+    color: var(--main-color) !important;
+    border-bottom:2px solid var(--main-color);
+}
+.navbar ul li a:hover{
+    color: var(--main-color) !important;
+    border-bottom:2px solid var(--main-color);
+}
+.header{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("./background.jpg");
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.middle{
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle h1{
+    font-size: 9vh;
+}
+.get-started{
+    font-size: 7vh;
+    position: absolute;
+    bottom: 20vh;
+}
+.go{
+    font-size: x-large;
+}
+.col-12{
+padding: 1%;
+}
+.services .card{
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.25);
+}
+#team,#services,#contact{
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+.team .card{
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
+}
+
+.container{
+    max-width: 80vw;
+}

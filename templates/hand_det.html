@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Linguistic</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="/static/hand_det.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/templates/index.html">Linguistic</a>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+
+    <section class="header">
+        <div class="container">
+            <div class="middle">
+                <h1 class="text-white fw-bold">Handwriting Detection<span class="theme-text"><br>Get the text written in handwritten text.</span></h1> 
+            </div>
+            <div class="img">
+                <form action="/templates/hand_det.html/" enctype="multipart/form-data" method="POST">
+                    <div class="form-group">
+                        <input type="file" accept="image/*" id = "img" style="display:none" name="uploaded-file">
+                        <label for="img" style="font-size: 5vh " class="theme-text">Upload Image</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" style="display:none" id="sub" disabled="true">
+                        <label for="sub" style="font-size: 5vh" class="theme-text">Submit</label>
+                    </div>
+                </form>
+                <script>
+                    document.querySelector("input[type=file]").onchange = ({
+                      target: { value },
+                    }) => {
+                      document.querySelector("input[type=submit]").disabled = !value;
+                    };
+                  </script>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

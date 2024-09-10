@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../Captach_Reg"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Captach_Reg"
+  }
+}

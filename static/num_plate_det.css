@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --main-color: #f0b30f;
+}
+
+.theme-text {
+    color: var(--main-color);
+}
+
+.navbar {
+    z-index: 1;
+    background-color: black;
+}
+
+.navbar-brand {
+    color: var(--main-color) !important;
+}
+
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("./fabio-oyXis2kALVg-unsplash.jpg");
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.middle {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle h1 {
+    font-size: 7vh;
+}
+#img {
+    display: flex;
+    height:30vh;
+    justify-content: center;
+    background-color: black;
+    position:absolute;
+    bottom:5vh;
+}
+label{
+    cursor: pointer;
+}
+
+.form-group{
+    padding-top: 1%;
+}
