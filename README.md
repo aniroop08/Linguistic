@@ -15,10 +15,9 @@ Linguistic is a versatile machine-learning project designed to tackle various te
 
 ![Annotation 2024-10-20 101534](https://github.com/user-attachments/assets/13b3ddbb-14c6-479b-a214-f7586c2cd606)
 
-![Annotation 2024-10-20 101900](https://github.com/user-attachments/assets/e3d81cde-af06-417e-b347-9a4f36fd2019)
-
 ![Annotation 2024-10-20 101950](https://github.com/user-attachments/assets/548d3ed6-2189-45d0-b17d-1e2a48ad8c51)
 
+![Annotation 2024-10-20 101900](https://github.com/user-attachments/assets/e3d81cde-af06-417e-b347-9a4f36fd2019)
 
 ## Features
 
