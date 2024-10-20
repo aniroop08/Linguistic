@@ -3,11 +3,22 @@
 
 ## Table of Contents
 - [Overview](#Overview)
+- [Screenshots](#Screenshots)
 - [Features](#features)
 - [Getting Started](#getting-started)
 
 ## Overview
 Linguistic is a versatile machine-learning project designed to tackle various text-related tasks. It encompasses text extraction from images, captcha detection, handwritten text recognition, license plate identification, and language translation. This README provides an overview of the project, its features, and instructions on how to use and contribute.
+
+## Screenshots
+![Annotation 2024-10-20 123931](https://github.com/user-attachments/assets/e3dd1d5d-7d4e-48d5-acef-272e0adbdb45)
+
+![Annotation 2024-10-20 101534](https://github.com/user-attachments/assets/13b3ddbb-14c6-479b-a214-f7586c2cd606)
+
+![Annotation 2024-10-20 101900](https://github.com/user-attachments/assets/e3d81cde-af06-417e-b347-9a4f36fd2019)
+
+![Annotation 2024-10-20 101950](https://github.com/user-attachments/assets/548d3ed6-2189-45d0-b17d-1e2a48ad8c51)
+
 
 ## Features
 
